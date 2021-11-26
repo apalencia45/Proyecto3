@@ -2,7 +2,7 @@
 // Universidad del Valle de Guatemala
 // BE3015 - Electrónica Digital 2
 // Andrea Palencia
-// PROYECTO 2 - TIVA C
+// PROYECTO 3 - TIVA C
 //*****************************************************************************
 
 //*****************************************************************************
