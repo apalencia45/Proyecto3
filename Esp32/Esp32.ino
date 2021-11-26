@@ -1,8 +1,8 @@
 //***************************
 // Universidad del Valle de Guatemala
 // BE3015 - Electrónica Digital 2
-
-// PROYECTO 2 
+// Andrea Palencia
+// PROYECTO 3 
 //***************************
 
 //***************************
