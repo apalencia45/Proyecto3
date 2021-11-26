@@ -14,7 +14,7 @@
 #include "MAX30105.h"
 #include "heartRate.h"
 #include "spo2_algorithm.h"
-MAX30105 sensor;
+MAX30105 particleSensor;
 #include <Adafruit_NeoPixel.h>
 
 //UART
@@ -114,7 +114,7 @@ void loop() {
 //***************************
 void valorsensor() {
 
-  long irValue = sensor.getIR(); //Reading the IR value it will permit us to know if there's a finger on the sensor or not
+  long irValue = particleSensor.getIR(); //Reading the IR value it will permit us to know if there's a finger on the sensor or not
   //Also detecting a heartbeat
 
   if (checkForBeat(irValue) == true) //si se detecta un heart beat
